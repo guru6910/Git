@@ -70,4 +70,18 @@ git pull https://github.com/abhipraydhoble/Project-Student-App.git
 ````
 git fetch https://github.com/abhipraydhoble/Project-Student-App.git
 ````
+**Merge two branch**
+````
+git merge <branchname>
+````
+**push file in branch or push branch on remote**
+````
+git push origin <branchname>
+````
+**delete and forcefully delete branch**
+````
+git branch -d <branchname>
+git branch -D <branchname>
+````
+
 
