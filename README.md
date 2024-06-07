@@ -83,5 +83,37 @@ git push origin <branchname>
 git branch -d <branchname>
 git branch -D <branchname>
 ````
+**To check commits and its id** 
+````
+git log
+````
+**Revert the file from commit**
+````
+git revert <commit id >
+````
+**Current work save** 
+````
+git stash
+````
+**list of saved stash** 
+````
+git stash list
+````
+**retrive the stash** 
+````
+git stash apply
+````
+**for clean stash** 
+````
+git stash clean
+```` 
+**retrive specific stash from saved stash** 
+````
+git stash apply <stash@{0}>
+````
+**To check difference between branches** 
+````
+git diff <branch> <branch>
+````
 
 
