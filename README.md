@@ -1,4 +1,3 @@
-
 **Configure Your Email and Name in GitBash with Commands**
 ````
 git config --global user.email "email-id"
@@ -115,5 +114,8 @@ git stash apply <stash@{0}>
 ````
 git diff <branch> <branch>
 ````
-
+**copy file one branch to another branch**
+````
+git cherry-pick <commit-id of file>
+````
 
