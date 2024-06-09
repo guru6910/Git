@@ -118,7 +118,7 @@ git diff <branch> <branch>
 ````
 git cherry-pick <commit-id of file>
 ````
-**Rebase Branch **
+**Rebase Branch**
 ````
 git rebase <Branch>
 ````
