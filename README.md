@@ -34,6 +34,7 @@ git add .
 **restore staged file**
 ````
 git restore --staged  <filename>
+git rm --cached <file> 
 ````
 **git commit : It is used to commit staged files to git local repository**
 
@@ -60,6 +61,10 @@ git checkout -b <branchname>
 **delete branch**
 ````
 git branch -d <branchname>
+````
+**merge branch using git pull**
+````
+git pull origin <branch name>
 ````
 **pull remote repository to local**
 ````
