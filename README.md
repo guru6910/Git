@@ -62,6 +62,10 @@ git checkout -b <branchname>
 ````
 git branch -d <branchname>
 ````
+**delete branch from Remote**
+````
+git push <Repo-URL> --delete <Branch-Name>
+````
 **merge branch using git pull**
 ````
 git pull origin <branch name>
