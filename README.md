@@ -131,3 +131,12 @@ git cherry-pick <commit-id of file>
 ````
 git rebase <Branch>
 ````
+**undo the last commit?**
+- To keep the changes in the working directory:
+````
+git reset --soft HEAD~1
+````
+- To discard the changes completely:
+````
+git reset --hard HEAD~1
+````
